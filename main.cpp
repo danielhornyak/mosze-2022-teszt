@@ -25,5 +25,6 @@ int main()
     delete[] b;// Itt még kell egy delete[] b;
     atlag /= N_ELEMENTS; 
     std::cout << "Atlag: " << atlag << std::endl;
+    std::cout << "teszt " << atlag << std::endl;
     return 0;
 }
